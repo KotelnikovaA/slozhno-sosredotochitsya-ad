@@ -1,5 +1,43 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+:root.theme-light {
+    --accent-color: rgba(255, 141, 203, 1);
+    --button-hover-outline: rgba(50, 49, 45, 0.4);
+    --header-color: rgba(255, 194, 230, 1);
+    --shadow-color: rgba(255, 141, 203, 1);
+    --title-decor-bg-color: rgba(255, 141, 203, 1);
+    --title-decor-text-color: rgba(53, 52, 48, 1);
+    --bg-image: url("../images/cover-image-light.png");
+    --not-accent-color: rgba(53, 52, 48, 1);
+    --link-shadow-color: rgba(255, 141, 203, 1);
+    --bg-color: #fff1f7;
+    --visible: hidden;
+}
 
-.page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+.theme-light .page {
+    --accent-color: rgba(255, 141, 203, 1);
+    --button-hover-outline: rgba(50, 49, 45, 0.4);
+    --header-color: rgba(255, 194, 230, 1);
+    --shadow-color: rgba(255, 141, 203, 1);
+    --title-decor-bg-color: rgba(255, 141, 203, 1);
+    --title-decor-text-color: rgba(53, 52, 48, 1);
+    --bg-image: url("../images/cover-image-light.png");
+    --not-accent-color: rgba(53, 52, 48, 1);
+    --link-shadow-color: rgba(255, 141, 203, 1);
+    --bg-color: #fff1f7;
+    --visible: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+    .page {
+        --accent-color: rgba(255, 141, 203, 1);
+        --button-hover-outline: rgba(50, 49, 45, 0.4);
+        --header-color: rgba(255, 194, 230, 1);
+        --shadow-color: rgba(255, 141, 203, 1);
+        --title-decor-bg-color: rgba(255, 141, 203, 1);
+        --title-decor-text-color: rgba(53, 52, 48, 1);
+        --bg-image: url("../images/cover-image-light.png");
+        --not-accent-color: rgba(53, 52, 48, 1);
+        --link-shadow-color: rgba(255, 141, 203, 1);
+        --bg-color: #fff1f7;
+        --visible: hidden;
+    }
 }
